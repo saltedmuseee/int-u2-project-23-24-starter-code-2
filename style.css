@@ -1,6 +1,43 @@
 /* The code below centers the text of all h1's on the page. */
+// <loracious>:
+// <weight>: 400;
+
+.lora- <loracious> {
+  font-family: "Lora", serif;
+  font-optical-sizing: auto;
+  font-weight: 10px;
+  font-style: normal;
+}
+@import url();
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif, cursive;
+}
+.header {
+    width: auto;
+    min-height: 50vh;
+    background-image: url(images/ocean.jpg);
+    background-size: 100%;
+    background-position: center;
+    position: relative;
+    }
+.sidebar {
+    position: absolute;
+    top: 10;
+    right: 0;
+    width: 120px;
+    height: 50vh;
+    background: rgba(240, 178, 216, 0.9);
+    text-align: center;
+}
+
+
+
 h1 {
     text-align:center;
+     color: lightpink ; 
 }
 
 /* The code below centers all images on the page and gives them a width of 400px. */
@@ -8,12 +45,18 @@ img {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width:400px;
+  width: 200px;
 }
-
+body {
+    font-family: brandon_text, arial, sans-serif;
+    line-height: 1;
+    color: rgb(54, 84, 78);
+}
 /* The code below centers the text of all h2's on the page. */
 h2 {
     text-align:center;
+    color: mistyrose;
+    background-color: rgb(255, 181, 227);
 }
 
 /* The code below aligns all the sections horizontally on the bottom. */
@@ -24,6 +67,27 @@ h2 {
 
 /* The code below a solid black border to section and puts space between them (the margin). */
 .section {
-    border: 5px black solid;
+    border: 3px rgb(214, 114, 167) solid;
     margin:5px;
+}
+
+.sidebar-image {
+    width: 120px;
+    height: 60px;
+}
+.sidebar-image-1 {
+    width:120px;
+    height: 60px;
+}
+.sidebar-img {
+    width: 120px;
+    height: 60px;
+}
+.sidebar-imgg {
+    width:120px;
+    height:60px;
+}
+.sidebar-imggg {
+    width:120px;
+    height: 60px;
 }
